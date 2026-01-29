@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const GAME_TYPES = {
   TWO_PLAYERS: 0,
@@ -53,7 +53,7 @@ const TicTacToe = () => {
     return { position: "", iconType: null, isTie: isMoveLeft ? null : true };
   };
 
-  const findBestMove = (cells, computerType) => {
+  const findBestMove = useCallback((cells, computerType) => {
     // Difficulty Logic
     if (difficulty === DIFFICULTY_LEVELS.EASY) {
       // Random move
@@ -122,7 +122,7 @@ const TicTacToe = () => {
       }
     }
     return bestMove;
-  };
+  }, [difficulty]);
 
   const startGame = (type) => {
     const randomIcon = Math.floor(Math.random() * 2);
@@ -178,7 +178,7 @@ const TicTacToe = () => {
       }, 500);
       return () => clearTimeout(timer);
     }
-  }, [playerTurn, gameStarted, gameType, gameState.position, cells, currentIcon, difficulty]);
+  }, [playerTurn, gameStarted, gameType, gameState.position, cells, currentIcon, difficulty, findBestMove]);
 
   const resetGame = () => {
     setGameStarted(false);
