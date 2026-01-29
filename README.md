@@ -1,77 +1,68 @@
 # 🎮 Ultimate Tic-Tac-Toe
 
-![Tic-Tac-Toe Banner](https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=1000&auto=format&fit=crop)
+![Tic-Tac-Toe Banner](https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-> A premium, futuristic, and highly responsive Tic-Tac-Toe game built with React.js. Featuring a smart AI opponent, stunning glassmorphism UI, and smooth animations.
-
----
+> A premium, futuristic take on the classic game, built with **React** and featuring an unbeatable AI.
 
 ## ✨ Features
 
-- **🤖 Smart AI Opponent**: Challenge yourself against an AI powered by the **Minimax Algorithm**.
-    - **Easy**: Random moves for beginners.
-    - **Medium**: A balanced mix of strategy and randomness.
-    - **Hard**: Unbeatable level for the pros!
-- **👥 2-Player Mode**: Play locally with a friend on the same device.
-- **🎨 Premium UI/UX**:
-    - **Glassmorphism Design**: Sleek, modern, and frosted glass aesthetics.
-    - **Neon Effects**: Glowing animations and vibrant gradients.
-    - **Dynamic Animations**: Smooth transitions for every move and game state.
-- **📱 Fully Responsive**: Optimized for desktops, tablets, and mobile devices.
+- **🤖 Advanced AI**: Challenge yourself against a Minimax-powered AI with three difficulty levels:
+  - **Easy**: Perfect for beginners (Random moves).
+  - **Medium**: A balanced challenge (Mix of optimal and random).
+  - **Hard**: Unbeatable! (Uses Minimax algorithm).
+- **👥 Two Player Mode**: Play locally with a friend.
+- **🎨 Glassmorphism UI**: A stunning, modern interface with neon glows, backdrop blurs, and smooth animations.
+- **⚡ Responsive Design**: optimized for both desktop and mobile devices.
+- **🔄 Interactive Animations**: Engaging cell pop-ins, winning line strikes, and hover effects.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: [React.js](https://reactjs.org/) (v18)
-- **Styling**: Vanilla CSS3 (Animations, Flexbox, Grid, Glassmorphism)
-- **Hosting**: Vercel
+- **React 18**: For a robust and efficient component-based architecture.
+- **CSS3**: Custom keyframe animations, gradients, and Flexbox/Grid layouts.
+- **Vercel**: Seamless deployment and hosting.
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally on your machine.
+Follow these steps to run the game locally on your machine.
 
 ### Prerequisites
 
-- Node.js installed (v14 or higher)
-- npm or yarn
+Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/naitik09090/Tic-Tac-Toe.git
-   cd Tic-Tac-Toe
-   ```
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/naitik09090/Tic-Tac-Toe.git
+    cd Tic-Tac-Toe
+    ```
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   # or
-   npm start
-   ```
-
-4. **Open in Browser**
-   Visit `http://localhost:3000` to play!
+3.  **Run the game**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## 📸 Screenshots
 
-| Start Screen | Gameplay | Game Over |
-|:---:|:---:|:---:|
-| *(Add screenshots here)* | *(Add screenshots here)* | *(Add screenshots here)* |
+| Start Screen | Gameplay |
+|:---:|:---:|
+| *Add screenshot of start screen here* | *Add screenshot of gameplay here* |
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have any ideas to improve the game or find any bugs, feel free to open an issue or submit a pull request.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
 ## 📄 License
 
@@ -80,5 +71,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/naitik09090">Naitik</a></p>
+  <sub>Built with ❤️ by <a href="https://github.com/naitik09090">Naitik</a></sub>
 </div>
