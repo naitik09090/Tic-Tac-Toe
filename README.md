@@ -52,7 +52,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 | Start Screen | Gameplay |
 |:---:|:---:|
-| <img src="https://images.unsplash.com/photo-1614726365778-d5e1b8cd89e8?q=80&w=400&h=300&fit=crop" width="100%" alt="Start Screen" /> | <img src="https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=400&h=300&fit=crop" width="100%" alt="Gameplay" /> |
+| <img src="./public/image.png" width="100%" alt="Start Screen" /> | <img src="./public/image-1.png.png" width="100%" alt="Gameplay" /> |
 
 ## 🤝 Contributing
 
