@@ -1,6 +1,6 @@
 # 🎮 Ultimate Tic-Tac-Toe
 
-![Tic-Tac-Toe Banner](https://images.unsplash.com/photo-1611996575749-79a3a250f948?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Tic-Tac-Toe Banner](./public/image.png)
 
 > A premium, futuristic take on the classic game, built with **React** and featuring an unbeatable AI.
 
@@ -50,9 +50,13 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ## 📸 Screenshots
 
-| Start Screen | Gameplay |
-|:---:|:---:|
-| <img src="./public/image.png" width="100%" alt="Start Screen" /> | <img src="./public/image-1.png.png" width="100%" alt="Gameplay" /> |
+| Start Screen |
+|:---:|
+| <img src="./public/image.png" width="100%" alt="Start Screen" /> | 
+
+| Gameplay |
+|:---:|
+| <img src="./public/image-1.png.png" width="100%" alt="Gameplay" /> |
 
 ## 🤝 Contributing
 
