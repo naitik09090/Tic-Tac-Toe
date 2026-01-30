@@ -56,7 +56,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 | Gameplay |
 |:---:|
-| <img src="./public/image-1.png.png" width="100%" alt="Gameplay" /> |
+| <img src="./public/image-1.png" width="100%" alt="Gameplay" /> |
 
 ## 🤝 Contributing
 
